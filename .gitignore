@@ -1,2 +1,5 @@
 config.py
 *.log
+server_last_debug.png
+./templates/*
+*.pyc

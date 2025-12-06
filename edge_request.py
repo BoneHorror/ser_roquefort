@@ -32,7 +32,7 @@ def main():
         
         if data['found']:
             print(f"Found template: {os.path.basename(abs_path)}")
-            print(f"   Similarity:  {score:.2%} (Próg: {args.thresh})")
+            print(f"   Similarity:  {score:.2%} (Threshold: {args.thresh})")
             print(f"   Position:  X={data['x']}, Y={data['y']}")
             print(f"   Time taken:     {data['duration']:.4f}s")
             sys.exit(0)
