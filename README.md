@@ -1,6 +1,6 @@
 # Edge detection server for ROCm
 
-This repository contains a server as well as a request script for ROCm-accelerated edge detection from images. The intended use is to perform edge detection on images and determine if other images (templates) are contained in the processed image with the given similarity threshold.
+This repository contains a server as well as a request script for ROCm-accelerated edge detection from images. The intended use is to perform edge detection on the screen and determine if other images (templates) are contained in the processed image with the given similarity threshold.
 
 ## Usage
 
